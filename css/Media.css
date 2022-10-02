@@ -1,0 +1,63 @@
+h1[class="h1_title"] {
+    text-align: center;
+    font-family: 'Henny Penny';
+    font-size: 7.5em;
+}
+
+
+h2[class="Title_Photo_Gallery"] {
+    font-size: 6em;
+    text-align: center;
+    font-family: 'Henny Penny';
+}
+
+div[class="Div_Media_Photo"] {
+    text-align: center;
+}
+
+
+
+img[class="Media_Photo"] {
+    height: 10em;
+    width: 15em;
+    border: 3.5px dashed black;
+    margin: 2em 3em;
+
+}
+
+img[class="Media_Photo"]:hover {
+    filter: grayscale(60%);
+    transform: scale(1.2);
+    border: none;
+    transition: 0.425s;
+
+}
+
+h2[class="Title_Video_Gallery"] {
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Henny Penny';
+    ;
+}
+
+
+div[class="Div_Media_Video"] {
+    text-align: center;
+
+}
+
+iframe[class="ifVideo"] {
+    margin: 4em;
+}
+
+iframe[class="ifVideo"]:hover {
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+
+@media (max-width: 630px) {
+    iframe[class="ifVideo"] {
+        width: 300px;
+        height: 200px;
+    }
+}

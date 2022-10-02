@@ -1,0 +1,327 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/* working */
+nav[class="navbar navbar-expand-lg navbar-light bg-light"] {
+   background-color: #F2F2F2;
+   padding-bottom: 1vh;
+   padding-top: 0.2vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   position: absolute;
+   z-index: 1;
+}
+
+/* working */
+nav[class="navbar navbar-expand-lg navbar-light bg-light"]:hover {
+   background-color: #F2F2F2;
+   padding-top: 0.2vh;
+   padding-bottom: 1vh;
+   padding: 1vh;
+   border-bottom: 0.3vh solid black;
+   /* position: fixed;
+   top: 0;
+   left: 0;
+   right: 0; */
+}
+
+/* working */
+#home {
+   color: #9453a6;
+   font-size: xx-large;
+   margin-left: 3vw;
+   font-family: 'Henny Penny';
+
+   /* font-family: 'Roboto', sans-serif; */
+   /* הפונט שנאמר לשים בטקסת הרגיל */
+
+
+}
+
+/* working */
+#home:hover {
+   border-top: #9453a6 0.4vh solid;
+   transition: 0.3s;
+}
+
+
+/* working */
+a[id="about"],
+a[id="media"],
+a[id="faq"],
+a[id="contact"] {
+   color: #f2CC0F;
+   text-decoration: none;
+   margin-right: 3vw;
+   padding: 1.5vh;
+   padding-right: 2.5vh;
+   padding-left: 2.5vh;
+   border: black solid 0.2vh;
+   border-radius: 2vh;
+   font-family: 'Henny Penny';
+
+}
+
+/* working */
+a[id="about"]:hover {
+   padding-top: 1vh;
+   padding-bottom: 1vh;
+   color: black;
+   border: #f2CC0F solid 0.4vh;
+   transition: 0.12s;
+}
+
+/* working */
+a[id="media"]:hover {
+   padding-top: 1vh;
+   padding-bottom: 1vh;
+   color: black;
+   border: #f2CC0F solid 0.4vh;
+   transition: 0.12s;
+}
+
+/* working */
+a[id="faq"]:hover {
+   padding-top: 1vh;
+   padding-bottom: 1vh;
+   color: black;
+   border: #f2CC0F solid 0.4vh;
+   transition: 0.12s;
+}
+
+/* working */
+a[id="contact"]:hover {
+   padding-top: 1vh;
+   padding-bottom: 1vh;
+   color: black;
+   border: #f2CC0F solid 0.4vh;
+   transition: 0.12s;
+}
+
+/* working */
+img[class="img_logo"] {
+   width: 5%;
+   height: 5%;
+   margin-right: 20%;
+
+}
+
+/* working */
+input[class="form_control"] {
+   border-radius: 50vh;
+}
+
+/* working */
+button[class="btn_btn"] {
+   border: none;
+   padding: 0.5vh;
+   border-radius: 50vh;
+   margin-left: 1.5vw;
+
+}
+
+/* working */
+button[class="btn_btn"]:hover {
+   background-color: #8CBF3F;
+   transition: 0.4s;
+   padding: 0.5vh;
+   border-radius: 50vh;
+   border: black solid 0.2vh;
+}
+
+/* צריך לבדוק */
+div[class="header02"] {
+   background-color: #0d0d0d;
+}
+
+img[class="header_photo"] {
+   width: 100vw;
+   height: 60vh;
+   opacity: 0.75;
+   margin-top: 8vh;
+}
+
+/* working */
+@media (max-width: 992px) {
+   header {
+      opacity: 1;
+   }
+
+   /* workint */
+   img[class="img_logo"] {
+      position: absolute;
+      top: 4%;
+      right: 50%;
+      left: 3%;
+      height: 10%;
+      width: 15%;
+      margin: auto;
+      margin-left: 45%;
+   }
+
+   /* working */
+   p[id="about"],
+   p[id="media"],
+   p[id="faq"],
+   p[id="contact"] {
+      padding: 1.5vh;
+   }
+
+   /* working */
+   a[id="about"],
+   a[id="media"],
+   a[id="faq"],
+   a[id="contact"] {
+      color: #0d0d0d;
+      font-size: x-large;
+      border: none;
+      border-radius: 0;
+      border-bottom: #0d0d0d 2px dashed;
+      padding-right: 50%;
+      padding-left: 50%;
+   }
+
+   /* working */
+   a[id="about"]:hover {
+      border-bottom: #f2CC0F 3.5px solid;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+   }
+
+   /* working */
+   a[id="media"]:hover {
+      border-bottom: #f2CC0F 3.5px solid;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+   }
+
+   /* working */
+   a[id="faq"]:hover {
+      border-bottom: #f2CC0F 3.5px solid;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+   }
+
+
+
+   /* working */
+   a[id="contact"]:hover {
+      border-bottom: #f2CC0F 3.5px solid;
+      /* padding-right: 100%; */
+      border-top: none;
+      border-right: none;
+      border-left: none;
+   }
+
+   /* working */
+   input[id="form_control"] {
+      display: none;
+
+   }
+
+   /* working */
+   button[id="btn_btn"] {
+      display: none;
+   }
+}
+
+@media (max-width: 725px) {
+   img[class="Footer_Img_Logo"] {
+      transform: scale(0.75);
+   }
+
+}
+
+/* working */
+@media (max-width: 420px) {
+
+   #header_photo {
+      height: 30vh;
+
+   }
+
+}
+
+/* working */
+div.contect {
+   display: flex;
+   justify-content: center;
+
+}
+
+/* working */
+div.contect_NavBar {
+   display: flex;
+   justify-content: center;
+
+}
+
+/* working */
+img[class="facebook_icon"],
+img[class="twitter_icon"],
+img[class="tripadvisor_icon"],
+img[class="instagram_icon"],
+img[class="youtube_logo"] {
+   width: 20px;
+   height: 35px;
+   margin-left: 2vw;
+}
+
+/* working */
+img[class="facebook_icon"]:hover {
+   opacity: 0.4;
+   transition: 0.15s;
+}
+
+/* working */
+img[class="twitter_icon"]:hover {
+   opacity: 0.4;
+   transition: 0.15s;
+}
+
+/* working */
+img[class="tripadvisor_icon"]:hover {
+   opacity: 0.4;
+   transition: 0.15s;
+}
+
+/* working */
+img[class="instagram_icon"]:hover {
+   opacity: 0.4;
+   transition: 0.15s;
+}
+
+/* working */
+img[class="youtube_logo"]:hover {
+   opacity: 0.4;
+   transition: 0.15s;
+}
+
+/* working */
+span[class="Footer_text_logo"] {
+   color: black;
+   background-color: #fff;
+}
+
+/* working */
+span[class="Footer_text_logo"]:hover {
+   background-color: blue;
+   color: #fff;
+   transition: 0.3s;
+   border-radius: 1.5em;
+
+}
+
+/* working */
+img[class="Footer_Img_Logo"] {
+   width: 20vw;
+   height: 15vh;
+}

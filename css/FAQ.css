@@ -1,0 +1,39 @@
+/* working */
+h1[class="h1_title"] {
+    text-align: center;
+    font-family: 'Henny Penny';
+    font-size: 7.5em;
+}
+
+/* working */
+h3[class="h3_accordion"] {
+    color: #9453a6;
+}
+
+/* working */
+p[class="p_accordion"] {
+    color: #8cbf3f;
+}
+
+/* working */
+p[class="p_of_title"] {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 1.5em;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+/* working */
+div[class="Div_Accordion"] {
+    width: 75%;
+    margin: auto;
+}
+
+/* working */
+@media (max-width: 420px) {
+    p[class="p_of_title"] {
+        font-size: 1em;
+    }
+}
